@@ -24,11 +24,11 @@ let b3 = prompt("include number B:")
 let c = prompt("include number C:")
 
 
-let x= (c-b3)/a3
+let x1= (c-b3)/a3
 
-console.log("value of x=" +x)
+console.log("value of x=" +x1)
 
-// task4
+task4
 let a4 = prompt("include number A:")
 let b4 = prompt("include number B:")
 
@@ -353,4 +353,18 @@ else{
 }
 
 
+// task7
+let x= prompt("include x:")
+let y= prompt("include y:")
+let r= prompt("include radius:")
 
+if(x>=0 && x<r && y>=0 && y<r){
+    console.log(" point is inside a circle ")
+}
+else if(x<=0 && x<r && y<=0 && y<r){
+    console.log(" point is inside a circle ")
+
+}
+else{
+    console.log("point is not inside a circle")
+}
