@@ -4,7 +4,10 @@ let a1 = prompt("include first number:")
 let b1 = prompt("include second number:")
 
 let division = a1/b1;
-console.log(division);
+let reminder = a1%b1;
+
+console.log("reminder= "+reminder );
+console.log("division=" +division);
 
 // task2
 let a2 = prompt("include A:")
@@ -12,7 +15,7 @@ let b2 = prompt("include B:")
 
 let varible = a2
 a2=b2
-b2= x
+b2= varible
 
 console.log("A =" +a2)
 console.log("B =" +b2)
